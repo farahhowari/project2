@@ -1,0 +1,424 @@
+.navbar{
+    background-color: white;
+ 
+  padding: 30px;
+ 
+}
+
+
+.nav-link{
+    margin-left:50px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin-bottom: 10px;
+    font-size: 15px;
+    
+}
+.nav-link:hover{
+    color: #023C59;
+}
+
+.fur{
+    text-decoration: none;
+   color:#023C59;
+    font-size: 40px;
+    margin-right:  250px;
+    margin-left: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
+}
+.fur:hover{
+ text-decoration: none;
+}
+.partTwo{
+    
+    background-attachment: fixed;
+    width: 1000px;
+    height: 500px;
+}
+.card{
+    background-color: rgb(236, 246, 248);
+    border: 1px;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%); 
+    
+    padding: 20px;
+    width: 30%;
+    height: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1; 
+}
+.h3card{
+    color:#023C59;
+    font-size: 35px;
+   margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.button1{
+    background-color: #023C59;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius:70px;
+    font-size: 10px;
+        width:140px;
+       
+    margin-left: 10px ;
+}
+.h6card{
+    margin: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.photo1{
+    width:126%;
+    height: 600px;
+}
+.p1{
+    margin-left: 10px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 12px;
+}
+.partThree{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 20px;
+    background-color: #eef3f9;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    position: absolute;
+    width: 100%;
+
+}
+.item1{
+    display: flex;
+      flex-direction: row;
+      align-items: center;
+    margin-left: 80px;
+    
+}
+.item2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 80px;
+}
+.item3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 80px;
+}
+.images{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.free{
+    font-size: 17px;
+     
+      margin-left:  10px;
+}
+.inspi{
+    text-align: center;
+    margin-top: 70px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+}
+.img {
+    margin-top: 50px;
+    margin-left: 160px;
+    }
+
+    .photo{
+    
+        width: 280px;
+        height: 330px;
+        margin: 10px;
+        margin-top:60px;
+    }
+    #screen{
+        margin-bottom: 80px;
+    }
+    #top{
+        border-top-left-radius:60px ;
+    }
+    #bottom{
+        border-bottom-right-radius:60px ;
+    }
+    #partfour{
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color:  aliceblue;
+        height: 450px;
+        align-items: center
+    }
+    .part1{
+        width: 50%;
+        margin-left: 230px
+    }
+    .girl{
+        
+        width:40%;
+        height: 380px;
+        margin-right: 400px
+    }
+    #browes{
+        text-align: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .count{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 0px;
+        margin-left: 170px;
+        margin-right: 190px;
+    }
+    .classification:hover{
+        transform: scale(1.1);
+    }
+    .define{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        text-align: center;
+        margin-left: 150px;
+        margin-right: 200px;
+        margin-top: 30px;
+    }
+    .work{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        gap: 0px;
+        margin-left: 170px;
+        margin-right: 190px;
+        
+    }
+    .partfive{
+        width: 300px;
+        height: 330px;
+    }
+    .definition{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        gap: 0px;
+        margin-left: 170px;
+        margin-right: 190px;
+        margin-top: 30px;
+        margin-bottom: 120px;
+    }
+    #h51{
+margin-left: 100px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    }
+#h52{
+margin-left: 90px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+#h53{
+margin-left: 70px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.partsix{
+    background-color:  aliceblue;
+    width:110%;
+    height: 300px;
+    text-align: center;
+    padding-top: 40px ;
+    padding-right: 130px ;
+}
+#one{
+    margin-top: 20px;
+    color: grey;
+}
+.p2{
+
+}
+.parteight{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    margin-left: 460px;
+     margin-top: 40px;
+   
+     border:1px solid#023C59;
+     border-radius: 5px;
+     overflow: hidden;
+     width: 380px
+   
+     
+ }
+ .submit{
+     background-color: #023C59 ;
+     color: white;
+     padding: 13px;
+     font-size: 15px ;
+     border-radius: 5px ;
+     width: 130px;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+      
+ }
+ .email{
+     outline: none;
+      border:none;
+     padding: 10px;
+     width: 250px;
+     height: 50px
+ }
+ .partseven{
+     
+    background-color:#023C59; 
+    width: 100%;
+    height: 300px;
+    display: flex;
+           justify-content: space-between;
+           padding: 20px;
+           align-items: flex-start;
+    color: white;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
+    
+ }
+ .left{
+   max-width: 2500px;
+     text-align: center;
+     padding-right: 180px;
+   
+ }
+ .text{
+    font-size: 24px;
+            margin-bottom: 50px;
+       margin-left:40px
+ }
+ .right{
+    display: flex;
+    gap: 10px;
+   
+    
+     
+ }
+ .partright{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 70px;
+   margin-right: 10px;
+    
+    
+ }
+ .partright:hover{
+    transform: scale(1.1);
+ }
+ .insta{
+    color: white;
+    text-decoration: none;
+     margin-top: 40px;
+    
+     text-align: left;
+ }
+ .insta:hover{
+    
+    text-decoration: underline;
+ }
+ #shop{
+    font-size: 24px;
+            font-weight: bold;
+            padding-left:5px;
+     margin-top:20px;
+     position: absolute;
+
+ }
+ .follow{
+    font-size: 24px;
+            margin-top: 40px;
+     margin-left:30px
+     
+ }
+ .link{
+    margin-left:160px
+ }
+ .cardgroup{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width:160%;
+    height: 400px;
+    
+}
+.cardphoto{
+   
+   border-radius: 10px;
+    width: 400px;
+    height: 300px;
+     padding-left:70px;
+}
+.container{
+    display: flex;
+   
+    gap: 10px;
+    margin-top:15px;
+    margin-left:60px;
+    width:150%;
+    
+}
+.col-sm{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  margin-left:0px
+   
+    
+}
+.col-so{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 60px;
+}
+.col-sn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+     margin-left: 70px;
+}
+
+header {
+    background-color:#023C59;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+}
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.h2 {
+    color:#023C59;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+}
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+.logo {
+    max-width: 100%;
+    border-radius: 100px;
+}
+footer {
+    background-color:#023C59;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
