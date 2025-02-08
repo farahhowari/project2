@@ -1,16 +1,17 @@
-import React from "react";
+import React ,{useState} from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Home from "../components/Home"; 
-
+import {TextField} from"@mui/material"
 import"../components/project.css"
 import Products from "../components/dining";
 import Fav from"../components/fav"
 
 const About = () => {
+  const [searchTerm, setSearchTerm] = useState("");
   return (
     <div>
-      {/* Navbar */}
+     
       <nav className="navbar">
         <div className="container-fluid">
             <Link to="/" className="fur">Furniture</Link>
@@ -18,15 +19,23 @@ const About = () => {
             <Link to="/About" className="nav-link">About Us</Link>
             <Link to="/product" className="nav-link">Products</Link>
             <Link to="/fav" className="nav-link">Fav</Link>
+        <TextField 
+          label="Search" 
+         variant="outlined" 
+           size="small" 
+           onChange={(e) => setSearchTerm(e.target.value)} 
+          style={{ marginLeft: "20px",marginTop:"10px", backgroundColor: "white", borderRadius: "5px" }}
+         />
         </div>
+
       </nav>
 
-      {/* Header */}
+     
       <header>
         <p>We design spaces that reflect your personality</p>
       </header>
 
-      {/* Section */}
+     
       <section>
         <h2 className="h2">Who are we?</h2>
         <p>
@@ -46,7 +55,7 @@ const About = () => {
         </p>
       </section>
 
-      {/* Footer */}
+      
       <footer>
         <p>جميع الحقوق محفوظة &copy; 2024 - Furniture Shop</p>
       </footer>

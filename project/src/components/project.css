@@ -1,3 +1,5 @@
+
+  
 .navbar{
     background-color: white;
  
@@ -124,12 +126,12 @@
 }
 .inspi{
     text-align: center;
-    margin-top: 70px;
+    margin-top: 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-
+font-size: 30px;
 }
 .img {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 160px;
     }
 
@@ -171,6 +173,7 @@
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
         margin-top: 50px;
         margin-bottom: 50px;
+        font-size: 30px;
     }
     .count{
         display: grid;
@@ -188,7 +191,8 @@
         text-align: center;
         margin-left: 150px;
         margin-right: 200px;
-        margin-top: 30px;
+        margin-top: 10px;
+        font-size: 25px;
     }
     .work{
         display: grid;
@@ -207,11 +211,12 @@
         display: grid;
         grid-template-columns: auto auto auto;
         align-items: center;
-        gap: 0px;
-        margin-left: 170px;
-        margin-right: 190px;
+        gap: 10px;
+        margin-left: 290px;
+        margin-right: 130px;
         margin-top: 30px;
         margin-bottom: 120px;
+        font-size: 25px;
     }
     #h51{
 margin-left: 100px;
@@ -231,7 +236,11 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     height: 300px;
     text-align: center;
     padding-top: 40px ;
-    padding-right: 130px ;
+    padding-right: 2000px ;
+  
+}
+.join{
+    margin-right: 40px;
 }
 #one{
     margin-top: 20px;
@@ -244,7 +253,7 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     display: flex;
     justify-content: center;
      align-items: center;
-    margin-left: 460px;
+    margin-left: 500px;
      margin-top: 40px;
    
      border:1px solid#023C59;
@@ -274,7 +283,7 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
  .partseven{
      
     background-color:#023C59; 
-    width: 100%;
+    width: 1230px;
     height: 300px;
     display: flex;
            justify-content: space-between;
@@ -286,15 +295,15 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     
  }
  .left{
-   max-width: 2500px;
+   max-width: 2000px;
      text-align: center;
-     padding-right: 180px;
+     padding-right: 100px;
    
  }
  .text{
     font-size: 24px;
             margin-bottom: 50px;
-       margin-left:40px
+       margin-left:30px
  }
  .right{
     display: flex;
@@ -342,52 +351,31 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
      
  }
  .link{
-    margin-left:160px
- }
- .cardgroup{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    width:160%;
-    height: 400px;
-    
-}
-.cardphoto{
-   
-   border-radius: 10px;
-    width: 400px;
-    height: 300px;
-     padding-left:70px;
-}
-.container{
-    display: flex;
-   
-    gap: 10px;
-    margin-top:15px;
-    margin-left:60px;
-    width:150%;
-    
-}
-.col-sm{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  margin-left:0px
-   
-    
-}
-.col-so{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-left: 60px;
-}
-.col-sn{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-     margin-left: 70px;
+    margin-left:160px}
+
+    .card-img-top {
+  width: 100%;
+  height: auto;
 }
 
+/* تفاصيل المنتج */
+.card-body {
+  text-align: center;
+}
+
+
+
+/* حواف البطاقة */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* هامش تحت البطاقة */
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
 header {
     background-color:#023C59;
     color: #fff;
